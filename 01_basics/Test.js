@@ -53,3 +53,32 @@ const myArr=[0,1,2,3,4]
 // }
 
 // console.log(myDetails);
+
+////////////////////////////////////////////////////////////////////////////////
+// const obj1 ={1:"a",2:"b",3:"c"}
+// const ob2 ={4:"d",5:"e",6:"f"}
+// // const obj3 =Objectj.assign({},obj1,obj2)
+// const obj3 = {...obj1,...ob2}
+// console.log(obj3);
+/////////////////////////////////////////////////////////////////////////////
+
+
+//Function
+
+
+// function applyFunvtion(number1,number2){
+//     if()
+//     console.log(number1+number2);
+//     return
+// } 
+// applyFunvtion(3,4);
+
+
+function logginInfo(username){
+    if(!username){
+        console.log("plzz enter name");
+        return
+    }
+    return`${username} just logged in`;
+}
+console.log(logginInfo("vikas"));
