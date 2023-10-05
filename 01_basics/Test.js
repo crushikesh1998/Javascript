@@ -74,11 +74,11 @@ const myArr=[0,1,2,3,4]
 // applyFunvtion(3,4);
 
 
-function logginInfo(username){
-    if(!username){
-        console.log("plzz enter name");
-        return
-    }
-    return`${username} just logged in`;
-}
-console.log(logginInfo("vikas"));
+// function logginInfo(username){
+//     if(!username){
+//         console.log("plzz enter name");
+//         return
+//     }
+//     return`${username} just logged in`;
+// }
+// console.log(logginInfo("vikas"));
